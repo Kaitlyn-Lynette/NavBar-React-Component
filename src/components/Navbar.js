@@ -14,7 +14,7 @@ const Navbar = () => {
 
     const changeBackground = () => {
         console.log(window.scrollY)
-        if(window.scrollY >= 66) {
+        if(window.scrollY >= 0.5) {
             setNavbar(true)
         } else {
             setNavbar(false)
@@ -34,9 +34,9 @@ const Navbar = () => {
             
             <div className= "nav-tabs">
                 <ul className ="navbar-links">
-                    <li><Link activeClass="active" to="navOne" spy={true} smooth={true} offset={50} duration={500}>{navOne}</Link></li>
-                    <li><Link activeClass="active" to="navTwo" spy={true} smooth={true} offset={50} duration={500}>{navTwo}</Link></li>
-                    <li><Link activeClass="active" to="navThree" spy={true} smooth={true} offset={50} duration={500}>{navThree}</Link></li>
+                    <li><Link activeClass="active" to="pageone" spy={true} smooth={true} offset={50} duration={500}>{navOne}</Link></li>
+                    <li><Link activeClass="active" to="pagetwo" spy={true} smooth={true} offset={50} duration={500}>{navTwo}</Link></li>
+                    <li><Link activeClass="active" to="pagethree" spy={true} smooth={true} offset={50} duration={500}>{navThree}</Link></li>
                 </ul>
             </div>
         </div>
