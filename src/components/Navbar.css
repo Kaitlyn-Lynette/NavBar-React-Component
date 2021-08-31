@@ -26,16 +26,17 @@
     padding-left: 22px;
 }
 
-.nav-tabs {
+.navbar-links  {
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
     gap: 1rem;
-    /* line-height: 40px; */
+    color: #656565;
+    list-style-type: none
+    
 }
 
-.nav-tabs p {
-    color: #656565;
+.navbar-links li a{
     font-size: 14px;
     padding-right: 22px;
     padding-left: 22px;
@@ -43,18 +44,20 @@
     transition: all ease-in-out 0.4s;
 }
 
-/* .nav-tabs p a:hover {
+.nav-tabs li > a:hover {
     background: transparent;
     color: #353535
 }
 
-.nav-tabs p a:active {
-    background: transparent;
-    color: #353535
-}
-
-.nav-tabs p a:hover,
-.nav-tabs p a:focus {
+.nav-tabs li > a:hover,
+.nav-tabs li > a:focus {
     background-color: transparent;
-} */
+}
+
+
+.nav-tabs li > a:active {
+    background: transparent;
+    color: #353535
+}
+
 

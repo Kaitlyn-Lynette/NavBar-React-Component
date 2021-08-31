@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react';
+import {Link} from 'react-scroll'
 import './Navbar.css'
 
 
@@ -32,15 +33,11 @@ const Navbar = () => {
             </div>
             
             <div className= "nav-tabs">
-                <div className="nav-one">
-                    <p>{navOne}</p>
-                </div>
-                <div className="nav-two">
-                    <p>{navTwo}</p>
-                </div>
-                <div className="nav-three">
-                    <p>{navThree}</p>
-                </div>
+                <ul className ="navbar-links">
+                    <li><Link activeClass="active" to="navOne" spy={true} smooth={true} offset={50} duration={500}>{navOne}</Link></li>
+                    <li><Link activeClass="active" to="navTwo" spy={true} smooth={true} offset={50} duration={500}>{navTwo}</Link></li>
+                    <li><Link activeClass="active" to="navThree" spy={true} smooth={true} offset={50} duration={500}>{navThree}</Link></li>
+                </ul>
             </div>
         </div>
     )
