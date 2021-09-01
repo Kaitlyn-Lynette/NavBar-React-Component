@@ -1,13 +1,8 @@
 .nav-bar {
-    /* padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center; */
     display: flex;
     justify-content: space-between;
     align-items: center; 
     padding-top: 15px;
-    /* background-color: #ffe9ec; */
     background: transparent;
 }
 
@@ -48,12 +43,6 @@
     background: transparent;
     color: #865151
 }
-/* 
-.nav-tabs li > a:hover,
-.nav-tabs li > a:focus {
-    background-color: transparent;
-} */
-
 
 .nav-tabs li > a:active {
     background: transparent;
