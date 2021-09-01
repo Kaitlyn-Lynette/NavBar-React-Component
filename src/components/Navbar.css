@@ -37,7 +37,7 @@
 }
 
 .navbar-links li a{
-    font-size: 14px;
+    font-size: 20px;
     padding-right: 22px;
     padding-left: 22px;
     -webkit-transition: all ease-in-out 0.4s;
@@ -46,13 +46,13 @@
 
 .nav-tabs li > a:hover {
     background: transparent;
-    color: #353535
+    color: #865151
 }
-
+/* 
 .nav-tabs li > a:hover,
 .nav-tabs li > a:focus {
     background-color: transparent;
-}
+} */
 
 
 .nav-tabs li > a:active {
