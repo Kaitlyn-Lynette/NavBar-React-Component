@@ -1,4 +1,4 @@
-.nav-bar {
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center; 
@@ -14,24 +14,27 @@
     background: #E4B2B1;
 }
 
-.nav-name {
+.nav-brand {
     color: white;
     font-size: 20px;
     line-height: 40px;
     padding-left: 22px;
 }
 
-.navbar-links  {
+.nav-links  {
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
     gap: 1rem;
     color: #656565;
-    list-style-type: none
-    
+    list-style-type: none 
 }
 
-.navbar-links li a{
+.navbar-collapse {
+    flex-grow: 0
+}
+
+.nav-links li a{
     font-size: 20px;
     padding-right: 22px;
     padding-left: 22px;
@@ -48,5 +51,3 @@
     background: transparent;
     color: #353535
 }
-
-
